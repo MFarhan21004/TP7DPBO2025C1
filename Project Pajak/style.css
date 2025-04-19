@@ -1,0 +1,132 @@
+body { 
+    font-family: Arial, sans-serif; 
+    margin: 20px; 
+    background-color: #f4f4f9;
+}
+
+header, footer { 
+    text-align: center; 
+    padding: 10px; 
+    background-color: #333;
+    color: white;
+    border-radius: 5px;
+}
+
+h3 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+table { 
+    width: 100%; 
+    border-collapse: collapse; 
+    margin: 20px 0; 
+    background-color: white;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+th, td { 
+    padding: 12px;
+    text-align: left; 
+    font-size: 16px;
+}
+
+th { 
+    background-color: #4CAF50; /* Warna latar belakang yang konsisten */
+    color: white;  /* Teks putih untuk kontras */
+    font-weight: bold;
+}
+
+td { 
+    background-color: #f9f9f9; /* Warna latar belakang yang konsisten dengan tabel */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #f1f1f1;
+}
+
+nav { 
+    margin: 10px 0; 
+    text-align: center;
+}
+
+/* CSS untuk form */
+form {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    max-width: 700px;
+    margin: 20px auto;
+}
+
+form label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #555;
+}
+
+form input[type="text"], form input[type="date"], form input[type="number"], form select {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 18px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+form input[type="submit"]:active {
+    background-color: #3e8e41;
+}
+
+/* Tombol Lihat Semua */
+a {
+    font-size: 16px;
+    color: #4CAF50;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+input[type="submit"], a {
+    transition: all 0.3s ease;
+}
+
+/* Container untuk dua form berdampingan */
+.form-container {
+    display: flex;
+    justify-content: center; /* Posisikan ke tengah */
+    align-items: flex-start;
+    gap: 50px;
+    margin: 20px auto;
+    flex-wrap: wrap;
+    max-width: 1000px;
+}
